@@ -35,7 +35,7 @@ h2 {
     color: rgb(11, 115, 11);
 }
 
-header {
+header, nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,8 +46,9 @@ header a {
     display: block;
 }
 
-.fa-linkedin {
+.fa-brands {
     color:aliceblue;
+    margin: 0 5px;
 }
 
 section {
@@ -84,6 +85,12 @@ article p:nth-child(n + 2) {
     }
 
     header {
+        flex-direction: column;
+        margin: 20px;
         text-align: center;
+    }
+
+    nav {
+        margin: 10px 0;
     }
 }
