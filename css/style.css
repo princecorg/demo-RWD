@@ -1,6 +1,4 @@
 body {
-    background: #00B4DB;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0083B0, #00B4DB);
@@ -21,7 +19,8 @@ section {
     background: rgba(186, 223, 217, 0.35);
 }
 
-h1, footer {
+h1,
+footer {
     font-family: "Permanent Marker", cursive;
 }
 
@@ -35,7 +34,8 @@ h2 {
     color: rgb(11, 115, 11);
 }
 
-header, nav {
+header,
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +47,7 @@ header a {
 }
 
 .fa-brands {
-    color:aliceblue;
+    color: aliceblue;
     margin: 0 5px;
 }
 
@@ -75,7 +75,7 @@ article p:nth-child(n + 2) {
 }
 
 footer {
-    color:aliceblue;
+    color: aliceblue;
     display: flex;
     justify-content: center;
 }
@@ -83,6 +83,8 @@ footer {
 footer p {
     margin: 10px;
 }
+
+/* ---------------------- MEDIA QUERIES ----------------------*/
 
 @media all and (max-width: 768px) {
     main {
@@ -94,7 +96,8 @@ footer p {
         width: 90%;
     }
 
-    header {
+    header,
+    footer {
         flex-direction: column;
         margin: 20px;
         text-align: center;
@@ -102,5 +105,15 @@ footer p {
 
     nav {
         margin: 10px 0;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        background: -webkit-linear-gradient(to right, #96b000, #d7db00);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #96b000, #d7db00);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 }
