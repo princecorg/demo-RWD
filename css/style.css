@@ -25,6 +25,10 @@ h2 {
     text-transform: uppercase;
 }
 
+h3{
+    text-align: center;
+}
+
 #web {
     color: rgb(11, 115, 11);
 }
@@ -60,7 +64,6 @@ ul li {
     line-height: 2.5rem;
 }
 
-article p:first-child,
 .gras {
     font-weight: bold;
 }
