@@ -2,5 +2,6 @@
 ## CV en HTML et CSS utilisant :
 - Flexbox
 - CSS Grid
-- Mmedia Queries
+- Media Queries
+
 :sparkles: Lien du projet : 
