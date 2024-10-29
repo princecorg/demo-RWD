@@ -1,3 +1,6 @@
-# Démo HTML - CSS à destination des étudiants de 1ère année du Bachelor INSM de L'EPF
-## CV en HTML et CSS pour découvrir les bases des deux langages
-:sparkles: Lien du projet : https://princecorg.github.io/demoEPFHtml/
+# Démo HTML - CSS - Responsive Design
+## CV en HTML et CSS utilisant :
+- Flexbox
+- CSS Grid
+- Mmedia Queries
+:sparkles: Lien du projet : 
