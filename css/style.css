@@ -95,9 +95,13 @@ article p:nth-child(n + 3) {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 4px; /* Espace entre les images */
 }
+
+.grid-container img {
+   max-width: 100%;
+  }
 
 footer {
   color: aliceblue;
@@ -143,6 +147,9 @@ footer p {
 @media all and (min-width: 769px) and (max-width: 1024px) {
   body {
     background: linear-gradient(to right, #96b000, #d7db00);
+  }
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
